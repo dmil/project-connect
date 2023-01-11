@@ -1,0 +1,11 @@
+--2023-01-10 22:18:42--  https://i1.wp.com/blog.piekniewski.info/wp-content/uploads/2021/11/brain_computer.png?fit=1500%2C1000
+Resolving i1.wp.com (i1.wp.com)... 192.0.77.2
+Connecting to i1.wp.com (i1.wp.com)|192.0.77.2|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 278728 (272K) [image/png]
+Saving to: ‘brain_computer.png?fit=1500,1000’
+
+brain_computer.png?fit=1500,1   0%[                                                  ]       0  --.-KB/s               brain_computer.png?fit=1500,1 100%[=================================================>] 272.20K  --.-KB/s    in 0.1s    
+
+2023-01-10 22:18:43 (1.93 MB/s) - ‘brain_computer.png?fit=1500,1000’ saved [278728/278728]
+

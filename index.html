@@ -1,10 +1,187 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Demo Website</title>
+        <title>Project Connect</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
     </head>
-    <body>
-        <h1>Our Demonstration Website</h1>
+    <div class="header">
+        <h1>Prioritising Project Connect</h1>
+    </div> 
+
+    <div class="row">
+        <div class="column">
+        <h2 class="column">Context:</h2>
+            <p> Project Connect aims to create a live map of all schools in the world and the status of their Internet connection. It is the data foundation for Giga, a UNICEF and ITU initiative to connect every school and every young person to information, opportunity, and choice. </p>
+
+            <p> We believe it is important for donors to have transparent information about the status quo; to this end, we have developed a need based scoring system that indicates neediest countries. </p>
+
+            <p> We have gone a step further and have also  provided donors a metric based on the preparedness of the country to deploy and use the funds more efficiently. A preparedness index indicates efficient use of fund money in the country. </p>
+
+            <p> We hope our website is used as a primer for philanthropists to understand the country's needs and predict how their money will be used, based on their own objectives to further the objective of Project Connect. </p>
+        </div>
+        <div class="column">
+        <h2 class="column">Methodology:</h2>
+            <p> The ITU 2017 ICT index does not account for Sierra Leon, South Sudan and Niger. For calculating the missing index the indicators and sub-indices for each country were put together and the scores were calculated according to the ICT methodology given below. We took data from the nearest available year for certain parameters for which the data from 2017 is not available. </p>
+
+            <p> The scores indicate how 3 the countries fare relative to each other. We infer that Sierra Leone is better performing than Niger, which in turn performs better that South Sudan. </p>
+
+            <p> For the ranking these countries among the other 6 countries, we took help of field experts to understand their relative  status in comparison with the rest of the countries. We were informed that Sierra Leone is least developed among Hondura, El Salvador, Zimbabwe, Philippines and Colombia. Thereafter we placed Sierra Leon, South Sudan and Niger  after Colombia, Philippines, El Salvador, Honduras, Zimbabwe, Sierra Leone, Niger and South Sudan. </p>
+
+            <p> We placed Sudan after South Sudan because while South Sudan shows 99.53% internet connectivity in schools, Sudan shows no internet. This data helped us compare between the two recently separated regions. </p>
+
+            <a href = "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/mis2017/methodology.aspx "> Methodology for ICT index</a>
+        </div>
+    </div>
+    <div class="container">
+    <h3>How connected are schools around the world?</h3>
+        <iframe title="Schools in Sudan and South Sudan are completely disconnected from the world" aria-label="Stacked Bars" id="datawrapper-chart-PpVHa" src="https://datawrapper.dwcdn.net/PpVHa/1/" scrolling="no" frameborder="10" style="width: auto; border: none;" height="812" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+    </div>
+    <div class="container">
+    <h3>Ranking countries based on need</h3>
+        <iframe title="Need based ranking of countries" aria-label="Grouped Column Chart" id="datawrapper-chart-kJ4L3" src="https://datawrapper.dwcdn.net/kJ4L3/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="838" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
+    </div>
+
+    <div class="row">
+        <div class="column">
+        <h2 class = "column">Recommendations:</h2>
+            <br>
+            <p>The 9 countries from UNICEF's list of prioritised countries have less than 50% of schools connected to the internet. Further, the score has been developed such that a score of 9 indicates worst performance on each of the three metrics. Based on this scoring system, Sudan and South Sudan, as of today, have the:
+                <ol>
+                    <li> Lowest proportion of schools connected to the internet</li>
+                    <li> The worst preparedness in terms of ranking lowest on the ICT Develoment Index</li>
+                    <li> The most stifling political environment rife with corruption</li>
+                </ol>
+            </p>
+
+        <h2>Need based scoring: Worst score implies highest need, worst infrastructure and corruption</h2>
+
+            <table style="width:100%">
+                <tr>
+                    <th>Country</th>
+                    <th>Continent</th>
+                    <th>Score</th>
+                </tr>
+                <tr>
+                    <td>Sudan</td>
+                    <td> <a href = "africa.html"> Africa </a> </td>
+                    <td>8.75</td>
+                </tr>
+                <tr>
+                    <td>South Sudan</td>
+                    <td><a href = "africa.html"> Africa </a></td>
+                    <td>8.25</td>
+                </tr>
+                <tr>
+                    <td>Sierra Leone</td>
+                    <td><a href = "africa.html"> Africa </a></td>
+                    <td>5.5</td>
+                </tr>
+                <tr>
+                    <td>Niger</td>
+                    <td><a href = "africa.html"> Africa </a></td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>Zimbabwe</td>
+                    <td><a href = "africa.html"> Africa </a></td>
+                    <td>4.25</td>
+                </tr>
+                <tr>
+                    <td>El Salvador</td>
+                    <td><a href = "ca.html"> Central America </a></td>
+                    <td>3.25</td>
+                </tr>
+                <tr>
+                    <td>Honduras</td>
+                    <td><a href = "ca.html"> Central America </a></td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Philippines</td>
+                    <td><a href = "asia_spider.html"> Asia </a></td>
+                    <td>2.5</td>
+                </tr>
+                <tr>
+                    <td>Colombia</td>
+                    <td><a href = "sa_spider.html"> South America </a></td>
+                    <td>1</td>
+                </tr>
+            </table>
+        <h2>Preparedness based scoring: Highest score implies highest preparedness in terms of infrastructure and political ethos</h2>
+
+            <table style="width:100%">
+                <tr>
+                    <th>Country</th>
+                    <th>Continent</th>
+                    <th>Score</th>
+                </tr>
+                <tr>
+                    <td>Sudan</td>
+                    <td>Africa</td>
+                    <td>5.3</td>
+                </tr>
+                <tr>
+                    <td>South Sudan</td>
+                    <td>Africa</td>
+                    <td>4.8</td>
+                </tr>
+                <tr>
+                    <td>Sierra Leone</td>
+                    <td>Africa</td>
+                    <td>6.5</td>
+                </tr>
+                <tr>
+                    <td>Niger</td>
+                    <td>Africa</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Zimbabwe</td>
+                    <td>Africa</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>El Salvador</td>
+                    <td>Central America</td>
+                    <td>5.8</td>
+                </tr>
+                <tr>
+                    <td>Honduras</td>
+                    <td>Central America</td>
+                    <td>3.8</td>
+                </tr>
+                <tr>
+                    <td>Philippines</td>
+                    <td>Asia</td>
+                    <td>4.5</td>
+                </tr>
+                <tr>
+                    <td>Colombia</td>
+                    <td>< South America</td>
+                    <td>5</td>
+                </tr>
+        </table>
+
+        </div>
+    <div class="column"></div>
+        <h2 class = "column">Limitations:</h2>
+        <br>
+            <p> Given the lack of time, our metric has several limitations listed below:
+                 Further, the score has been developed such that a score of 9 indicates worst performance on each of the three metrics. Based on this scoring system, Sudan and South Sudan, as of today, have the:
+                <ol>
+                    <li> The choice of 9 from UNICEF's list of prioritised countries was based on those countries with less than 50% of schools connected to the internet.</li>
+                    <li> The lack of data for Sierra Leone, South Sudan and Niger made it necessary for us to impute ICT index values using proxies for each.</li>
+                    <li> The ICT development index is based on figures from 2017.</li>
+                    <li> The Corruption index may not include internet shutdowns which is of specific importance to our context.</li>
+                    <li> We have assigned weights of .5, .25 and .25 to the proxies for need, infrastructure and government. However, these are arbitrary and need to be looked into further.</li>
+                </ol>
+            </p>
+    </div>
+
+    <div class="container">
         <a href='our-team/index.html'>Learn more about our team</a>
+    </div>
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    <script src="scripts/viz-need-infra-gov.js"></script>
     </body>
 </html>
