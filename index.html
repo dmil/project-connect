@@ -3,26 +3,33 @@
     <head>
         <title>Project Connect</title>
         <link href="style.css" rel="stylesheet" type="text/css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+        <meta name="theme-color" content="#000000"><link rel="manifest" href="/build/asset-manifest.json">
+        <link id="external-css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap" media="all">
+        <link href="/build/static/css/main.66a05054.chunk.css" rel="stylesheet">
     </head>
     <div class="header">
         <h1>Prioritising Project Connect</h1>
     </div> 
+    
+    <div class="tab">
+        <button class="tablinks" onclick="openSection(event, 'Context')">Context</button>
+        <button class="tablinks" onclick="openSection(event, 'Methodology')">Methodology</button>
+        <button class="tablinks" onclick="openSection(event, 'Recommendations')">Recommendations</button>
+        <button class="tablinks" onclick="openSection(event, 'Limitations')">Limitations</button>
+    </div>
 
-    <div class="row">
-        <div class="column">
-        <h2 class="column">Context:</h2>
-            <p> Project Connect has gained significant attention since the COVID-19 pandemic. As a result, there has been a growing amount of financial support and donations to the project. Currently, there are over 50 countries where connectivity is underway through the taskforce. Therefore, team members are faced with the question of “how best to allocate the money across all the available countries”. There is currently no systemic way to address the question. The WIP methodology presented on this website provides a tool that can be a first catalyst to the development of a standardized framework for supporting more efficient, effective and optimal deployment of funding to school internet connectivity.</p>
-
-            <p>Project Connect intends to create a live map of all schools in the world and the status of their Internet connection. It is the data foundation for Giga, a UNICEF and ITU initiative to connect every school and every young person to information, opportunity, and choice. </p>
-
-            <p> We are a team of policy studnents at the Harvard Kennedy School. We believe it is important for donors to have transparent information about the status quo; to this end, we have developed a need based scoring system that indicates neediest countries. </p>
-
-            <p> We have gone a step further and have also  provided donors a metric based on the preparedness of the country to deploy and use the funds more efficiently. A preparedness index indicates efficient use of fund money in the country. </p>
-
-            <p> We hope our website is used as a primer for philanthropists to understand the country's needs and predict how their money will be used, based on their own objectives to further the objective of Project Connect. </p>
+    <!-- Tab content -->
+    <div id="Context" class="tabcontent">
+        <h3>Context</h3>
+          <p> Project Connect has gained significant attention since the COVID-19 pandemic. As a result, there has been a growing amount of financial support and donations to the project. Currently, there are over 50 countries where connectivity is underway through the taskforce. Therefore, team members are faced with the question of “how best to allocate the money across all the available countries”. There is currently no systemic way to address the question. The WIP methodology presented on this website provides a tool that can be a first catalyst to the development of a standardized framework for supporting more efficient, effective and optimal deployment of funding to school internet connectivity.</p>
+        <div class="container">   
+            <h3>How connected are schools around the world?</h3>
+            <iframe title="Schools in Sudan and South Sudan are completely disconnected from the world" aria-label="Stacked Bars" id="datawrapper-chart-PpVHa" src="https://datawrapper.dwcdn.net/PpVHa/1/" scrolling="no" frameborder="10" style="width: auto; border: none;" height="812" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
         </div>
-        <div class="column">
-        <h2 class="column">Methodology:</h2>
+    <div id="Methodology" class="tabcontent">
+        <h3>Methodology</h3>
             <p> Methodology for Need Based Scoring and Preparedness Based Scoring:
             The scoring is derived from a weighted average of points assigned to need, ICT infrastructure and corruption parameters. </p> 
 
@@ -35,35 +42,18 @@
 
             <p>ICT Infrastucture Index: 
             The ICT Infrastrucutre Index is sourced from the ITU's ICT Development Index. The ITU 2017 ICT index does not account for Sierra Leon, South Sudan and Niger. These countries account for the neediest coutnries. For calculating the missing index the indicators and sub-indices for each country were put together and the scores were calculated according to the ICT methodology given below. We took data from the nearest available year for certain parameters for which the data from 2017 is not available. </p>
-
-            <p> The scores indicate how 3 the countries fare relative to each other. We infer that Sierra Leone is better performing than Niger, which in turn performs better that South Sudan. </p>
-
-            <p> For the ranking these countries among the other 6 countries, we took help of field experts to understand their relative  status in comparison with the rest of the countries. We were informed that Sierra Leone is least developed among Hondura, El Salvador, Zimbabwe, Philippines and Colombia. Thereafter we placed Sierra Leon, South Sudan and Niger  after Colombia, Philippines, El Salvador, Honduras, Zimbabwe, Sierra Leone, Niger and South Sudan. </p>
-
-            <p> We placed Sudan after South Sudan because while South Sudan shows 99.53% internet connectivity in schools, Sudan shows no internet. This data helped us compare between the two recently separated regions. </p>
-
-            <a href = "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/mis2017/methodology.aspx "> Methodology for ICT index</a>
-        </div>
-    </div>
-    <div class="container">
-    <h3>How connected are schools around the world?</h3>
-        <iframe title="Schools in Sudan and South Sudan are completely disconnected from the world" aria-label="Stacked Bars" id="datawrapper-chart-PpVHa" src="https://datawrapper.dwcdn.net/PpVHa/1/" scrolling="no" frameborder="10" style="width: auto; border: none;" height="812" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-    </div>
-    <div class="container">
-    <h3>Ranking countries based on need</h3>
-        <iframe title="Need based ranking of countries" aria-label="Grouped Column Chart" id="datawrapper-chart-kJ4L3" src="https://datawrapper.dwcdn.net/kJ4L3/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="838" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
     </div>
 
-    <div class="row">
-        <div class="column">
-        <h2 class = "column">Recommendations:</h2>
-            <br>
-            <p>The 9 countries from UNICEF's list of prioritised countries have less than 50% of schools connected to the internet. Further, the score has been developed such that a score of 9 indicates worst performance on each of the three metrics. Based on this scoring system, Sudan and South Sudan, as of today, have the:
+    <div id="Recommendations" class="tabcontent">
+    <h3>Recommendations</h3>
+
+    <p>The 9 countries from UNICEF's list of prioritised countries have less than 50% of schools connected to the internet. Further, the score has been developed such that a score of 9 indicates worst performance on each of the three metrics. Based on this scoring system, Sudan and South Sudan, as of today, have the:
                 <ol>
                     <li> Lowest proportion of schools connected to the internet</li>
                     <li> The worst preparedness in terms of ranking lowest on the ICT Develoment Index</li>
                     <li> The most stifling political environment rife with corruption</li>
                 </ol>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRm4GkQCmVyt7ZMaXtrXRBHR-Yu0f8lsJZpKXp5nT24Er-qjdTX9g9pYCXOjrAYUkvxYlJc8C2P6yMP/pubhtml?gid=768012199&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
             </p>
 
         <h2>Need based scoring: Highest score implies highest need, worst infrastructure and corruption</h2>
@@ -170,17 +160,20 @@
                 </tr>
                 <tr>
                     <td>Colombia</td>
-                    <td>< South America</td>
+                    <td>South America</td>
                     <td>5</td>
                 </tr>
         </table>
+        <h2>Click on the buttons below to sort the table based on ranks -- A need rank of 1 implies highest need, an infrastructure rank of 1 implies best infrastructure and a government rank of 1 implies the best political ethos</h2>
+                <div id="root"></div>
+        <script src="/build/table.js"></script>
+        <script src="/build/static/js/2.8c1afa42.chunk.js"></script>
+        <script src="/build/static/js/main.6f144352.chunk.js"></script>
+    </div>
 
-        </div>
-    <div class="column"></div>
-        <h2 class = "column">Limitations:</h2>
-        <br>
-            <p> Given the lack of time, our metric has several limitations listed below:
-                 Further, the score has been developed such that a score of 9 indicates worst performance on each of the three metrics. Based on this scoring system, Sudan and South Sudan, as of today, have the:
+    <div id="Limitations" class="tabcontent">
+    <h3>Limitations</h3>
+        <p> Given the lack of time, our metric has several limitations listed below:
                 <ol>
                     <li> The choice of 9 from UNICEF's list of prioritised countries was based on those countries with less than 50% of schools connected to the internet.</li>
                     <li> The lack of data for Sierra Leone, South Sudan and Niger made it necessary for us to impute ICT index values using proxies for each.</li>
@@ -189,12 +182,14 @@
                     <li> We have assigned weights of .5, .25 and .25 to the proxies for need, infrastructure and government. However, these are arbitrary and need to be looked into further.</li>
                 </ol>
             </p>
+        <div class="container">
+            <a href='our-team/index.html'>Learn more about our team</a>
+        </div>
     </div>
-
-    <div class="container">
-        <a href='our-team/index.html'>Learn more about our team</a>
-    </div>
-    <script src="//d3js.org/d3.v3.min.js"></script>
-    <script src="scripts/viz-need-infra-gov.js"></script>
+    <script src="scripts/tabs.js"></script>
+<!--     <script src="//d3js.org/d3.v3.min.js"></script>
+    <script src="scripts/App.js"></script>
+    <script src="scripts/index.js"></script>
+ -->
     </body>
 </html>
